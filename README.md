@@ -20,9 +20,9 @@
 * getHexStringFromByteArray: 转换为十六进制字符串
 * getDateFromString: string转date（无异常）
 
-** 全部方法可自行查看源代码 **
+**全部方法可自行查看源代码**
 
-** 更多工具等待本人整理后发布 **
+**更多工具等待本人整理后发布**
 
 ## 使用方法:
 
