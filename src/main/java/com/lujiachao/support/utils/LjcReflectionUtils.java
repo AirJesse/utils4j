@@ -146,13 +146,12 @@ public class LjcReflectionUtils {
      * @param clazz
      * @param <Tp>
      * @return
-     * @throws LjcUtilsException
      */
     public static <Tp> Tp getInstance(Class<Tp> clazz) throws LjcUtilsException {
         try {
             return clazz.newInstance();
         } catch (Exception e) {
-            throw new LjcUtilsException(e.getMessage());
+            return null;
         }
     }
 
