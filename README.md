@@ -26,5 +26,4 @@
 
 ## 使用方法:
 
-将*release*中的 [ljc-utils-1.0.jar]("https://github
-.com/AirJesse/AirJesseDevelopmentSupport/blob/master/release/ljc-utils-1.0.jar")添加进自己的项目中。
+将*release*中的 [ljc-utils-1.0.jar]("https://github.com/AirJesse/AirJesseDevelopmentSupport/blob/master/release/ljc-utils-1.0.jar")添加进自己的项目中。
