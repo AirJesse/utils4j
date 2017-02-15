@@ -1,5 +1,7 @@
 package com.lujiachao.support.utils;
 
+import com.lujiachao.support.common.LjcUtilsException;
+
 import java.lang.reflect.Field;
 import java.util.*;
 
@@ -63,7 +65,7 @@ public class LjcReflectionUtils {
      * @param <FromType>
      */
     public static <ToType, FromType> void copy(ToType to, FromType from, Class<? super ToType> toClass, Class<?
-            super FromType> fromClass, boolean notNull, String... except) {
+            super FromType> fromClass, boolean notNull, String... except) throws LjcUtilsException {
 
         Map<String, Field> fromClassFlds = getAllFieldOfClass(from.getClass());
         Map<String, Field> toClassFlds = getAllFieldOfClass(to.getClass());
@@ -104,8 +106,8 @@ public class LjcReflectionUtils {
                                 fldTo.set(to, fldFrom.get(from));
                             }
                         }
-                    } catch (Throwable ex) {
-//                        OTHERWebSystemInstance.log(ex);
+                    } catch (Exception e) {
+                        throw new LjcUtilsException(e.getMessage());
                     }
 
                     fldFrom.setAccessible(accessableFrom);
@@ -117,11 +119,41 @@ public class LjcReflectionUtils {
 //        return to;
     }
 
-    public static <ToType, FromType> void copy(ToType to, FromType from, boolean notNull, String... except) {
+    public static <ToType, FromType> void copy(ToType to, FromType from, boolean notNull, String... except) throws LjcUtilsException {
         copy(to, from, (Class<ToType>) to.getClass(), (Class<FromType>) from.getClass(), notNull, except);
     }
 
-    public static <ToType, FromType> void copy(ToType to, FromType from, String... except) {
+    public static <ToType, FromType> void copy(ToType to, FromType from, String... except) throws LjcUtilsException {
         copy(to, from, false, except);
     }
+
+    /**
+     * 获取目标类的所有父类
+     * @param clazz
+     * @return 父类的集合
+     */
+    public static List<Class> getAllSuperClasses(Class<?> clazz) {
+        List<Class> lclz = new ArrayList<Class>();
+        if (clazz != null && clazz.equals(Object.class) == false) {
+            lclz.add(clazz.getSuperclass());
+            lclz.addAll(getAllSuperClasses(clazz.getSuperclass()));
+        }
+        return lclz;
+    }
+
+    /**
+     * 创建类的实例
+     * @param clazz
+     * @param <Tp>
+     * @return
+     * @throws LjcUtilsException
+     */
+    public static <Tp> Tp getInstance(Class<Tp> clazz) throws LjcUtilsException {
+        try {
+            return clazz.newInstance();
+        } catch (Exception e) {
+            throw new LjcUtilsException(e.getMessage());
+        }
+    }
+
 }
