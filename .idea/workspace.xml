@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d70fb3cd-5197-4cb5-97ec-5fe49e6642d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="AirjesseDevelopUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,118 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LjcReflectionUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAllFieldOfClass#1;class#LjcReflectionUtils#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LjcStringUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcStringUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#filterChinese#0;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#containsChinese#0;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#getHexStringFromByteArray#0;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#getHexStringFromByteArray#1;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#getByteArrayFromHexString#0;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#getDateFromString#0;class#LjcStringUtils#0" expanded="false" />
-                <element signature="method#getStringFromDate#0;class#LjcStringUtils#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LjcArrayUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcArrayUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="824" column="0" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#2;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#3;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#4;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#5;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#6;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#7;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#8;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#9;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#10;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#11;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#12;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#13;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#14;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#15;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#16;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#append#17;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#2;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#3;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#4;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#5;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#6;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#7;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#contains#8;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#distinct#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="e#10523#10532#0" expanded="true" />
-                <element signature="method#remove#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#2;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#3;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#4;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#5;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#6;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#remove#7;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#removeByPrefix#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#2;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#3;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#4;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#5;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#6;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#7;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#8;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#9;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#10;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#11;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#12;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#13;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#14;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#toArray#15;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#0;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#1;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#2;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#3;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#4;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#5;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#6;class#LjcArrayUtils#0" expanded="false" />
-                <element signature="method#subArray#7;class#LjcArrayUtils#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,13 +57,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujiachao/support/common/LjcUtilsException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcStringUtils.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -184,6 +78,70 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ljc-utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ljc-utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jar" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ljc-utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="clean" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ljc-utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
@@ -602,6 +560,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -764,16 +744,16 @@
       <option name="presentableId" value="Default" />
       <updated>1487061637526</updated>
       <workItem from="1487061642653" duration="5520000" />
-      <workItem from="1487123581983" duration="12714000" />
+      <workItem from="1487123581983" duration="13104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18234000" />
+    <option name="totallyTimeSpent" value="18624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="993" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -781,13 +761,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -873,29 +853,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="283">
+          <caret line="598" column="9" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
+          <folding>
+            <element signature="e#23443#23444#0" expanded="true" />
+            <element signature="e#23515#23516#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAllFieldOfClass#1;class#LjcReflectionUtils#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="824" column="0" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
+        <state relative-caret-position="617">
+          <caret line="822" column="5" selection-start-line="822" selection-start-column="5" selection-end-line="822" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#LjcArrayUtils#0" expanded="false" />
             <element signature="method#append#0;class#LjcArrayUtils#0" expanded="false" />
@@ -964,17 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="598" column="9" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcStringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -992,10 +961,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujiachao/support/utils/LjcReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAllFieldOfClass#1;class#LjcReflectionUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
