@@ -55,16 +55,16 @@ public class LjcReflectionUtils {
     /**
      * 用于复制两个类中的同名同类型属性（浅拷贝）。
      *
+     * @param <ToType>
+     * @param <FromType>
      * @param to         目标对象
      * @param from       源对象
      * @param toClass    目标对象类
      * @param fromClass  源对象类
      * @param notNull    True则不会将源对象中的NULL值属性覆盖目标对象的属性
      * @param except     不参与copy的属性名
-     * @param <ToType>
-     * @param <FromType>
      */
-    public static <ToType, FromType> void copy(ToType to, FromType from, Class<? super ToType> toClass, Class<?
+    public static <ToType, FromType> ToType copy(ToType to, FromType from, Class<? super ToType> toClass, Class<?
             super FromType> fromClass, boolean notNull, String... except) throws LjcUtilsException {
 
         Map<String, Field> fromClassFlds = getAllFieldOfClass(from.getClass());
@@ -109,26 +109,27 @@ public class LjcReflectionUtils {
                     } catch (Exception e) {
                         throw new LjcUtilsException(e.getMessage());
                     }
-
-                    fldFrom.setAccessible(accessableFrom);
-                    fldTo.setAccessible(accessableTo);
+//多线程情况下再次修改会产生问题
+//                    fldFrom.setAccessible(accessableFrom);
+//                    fldTo.setAccessible(accessableTo);
 
                 }
             }
         }
-//        return to;
+        return to;
     }
 
-    public static <ToType, FromType> void copy(ToType to, FromType from, boolean notNull, String... except) throws LjcUtilsException {
-        copy(to, from, (Class<ToType>) to.getClass(), (Class<FromType>) from.getClass(), notNull, except);
+    public static <ToType, FromType> ToType copy(ToType to, FromType from, boolean notNull, String... except) throws LjcUtilsException {
+        return copy(to, from, (Class<ToType>) to.getClass(), (Class<FromType>) from.getClass(), notNull, except);
     }
 
-    public static <ToType, FromType> void copy(ToType to, FromType from, String... except) throws LjcUtilsException {
-        copy(to, from, false, except);
+    public static <ToType, FromType> ToType copy(ToType to, FromType from, String... except) throws LjcUtilsException {
+        return copy(to, from, false, except);
     }
 
     /**
      * 获取目标类的所有父类
+     *
      * @param clazz
      * @return 父类的集合
      */
@@ -143,6 +144,7 @@ public class LjcReflectionUtils {
 
     /**
      * 创建类的实例
+     *
      * @param clazz
      * @param <Tp>
      * @return
